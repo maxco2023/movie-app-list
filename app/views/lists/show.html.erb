@@ -1,0 +1,9 @@
+<h1>Lists - <%= @list.name %></h1>
+
+  <% @list.bookmarks.each do |bookmark| %>
+    <div><%= bookmark.movie.title %></div>
+    <div><img src="<%= bookmark.movie.poster_url %>" /></div>
+    <div>Comment : <%= bookmark.comment %></div>
+    <div>Rating : <%= bookmark.movie.rating %></div>
+    <div>Overview : <%= bookmark.movie.overview %></div>
+  <% end %>
