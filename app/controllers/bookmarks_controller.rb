@@ -16,9 +16,8 @@ class BookmarksController < ApplicationController
   end
 
   def edit
-    @list = List.find(params[:id])
+    @list = List.find(params[:list_id])
     @bookmark = Bookmark.find(params[:id])
-
   end
 
   def update

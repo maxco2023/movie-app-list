@@ -1,0 +1,24 @@
+.container-bookmark{
+  width: 1000px;
+  margin:0 auto;
+  min-height: calc(100vh - 166px);
+}
+
+.container-new-bookmark{
+  width: 600px;
+  margin: 0 auto;
+  min-height: calc(100vh - 166px);
+}
+
+.container-edit-bookmark{
+  width: 600px;
+  margin: 0 auto;
+  min-height: calc(100vh - 166px);
+}
+
+.bookmark-title{
+  display:flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
+}
