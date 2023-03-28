@@ -9,3 +9,6 @@ application.register("hello", HelloController)
 
 import TypedJsController from "./typed_js_controller"
 application.register("typed-js", TypedJsController)
+
+import DigitalControler from "./digital_controller"
+application.register("digital", DigitalController)
