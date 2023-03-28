@@ -1,3 +1,42 @@
+.card-add-movie{
+  overflow: hidden;
+  padding: 20px;
+  border-radius: 10px;
+  background: white;
+  display:grid;
+  margin: 20px 0 20px 0;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.fa-trash{
+  color: white;
+  border-radius: 50px;
+  background-color: black;
+  padding: 8px;
+  &:hover{
+    color: white;
+    border-radius: 50px;
+    background-color: red;
+    padding: 8px;
+  }
+}
+
+
+.fa-pen{
+  color: white;
+  border-radius: 50px;
+  background-color: black;
+  padding: 8px;
+  &:hover{
+    color: white;
+    border-radius: 50px;
+    background-color: rgb(54, 54, 185);
+    padding: 8px;
+  }
+}
+
+
+
 .card-trip {
   overflow: hidden;
   border-radius: 10px;
@@ -17,6 +56,15 @@
   font-size: 16px;
   font-weight: bold;
   margin: 0;
+}
+.card-trip h3{
+  position: absolute;
+  display: flex;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  right: 0;
+  top: 0;
 }
 
 .card-trip p {
