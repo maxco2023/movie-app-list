@@ -6,6 +6,8 @@
     "@hotwired/turbo-rails": "^7.3.0",
     "@popperjs/core": "^2.11.7",
     "bootstrap": "^5.2.3",
+    "sortablejs": "^1.15.0",
+    "stimulus-sortable": "^4.1.0",
     "typed.js": "^2.0.14",
     "webpack": "^5.76.3",
     "webpack-cli": "^5.0.1"
