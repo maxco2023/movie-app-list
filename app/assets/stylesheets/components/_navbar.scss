@@ -1,9 +1,25 @@
 .navbar-lewagon {
   justify-content: space-between;
-  background: white;
+  background-color: #264653;
   position: sticky;
   top:0;
   z-index:1000;
+  a{
+    color:antiquewhite;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  a:hover{
+    color: antiquewhite;
+    font-size: 18px;
+    text-decoration: underline;
+  }
+}
+
+#h1-title{
+  font-size: 18px;
+  color: antiquewhite;
+  font-weight: bold;
 }
 
 .navbar-lewagon .navbar-collapse {
