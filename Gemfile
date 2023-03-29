@@ -70,3 +70,4 @@ gem "font-awesome-sass", "~> 6.1"
 gem "simple_form"
 gem "cloudinary"
 gem "dotenv-rails", groups: [:development, :test]
+gem 'acts_as_list'
