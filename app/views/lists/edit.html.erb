@@ -1,10 +1,8 @@
 <div class="container-new-list">
-  <h1>Create a new movie list</h1>
+  <h1>Modify your list</h1>
     <%= simple_form_for [@list] do |f| %>
       <%= f.input :photo, as: :file %>
       <%= f.input :name %>
       <%= f.button :submit, class: "btn-primary" %>
     <% end %>
-    <br>
-    <%= link_to "Back", :back, class:"btn btn-secondary" %>
 </div>

@@ -1,8 +1,5 @@
 <div class="container-bookmark">
-  <div class="bookmark-title">
-    <h1><%= @list.name %></h1>
-    <%#= link_to "Add a movie", new_list_bookmark_path(@list), class:"btn btn-primary" %>
-  </div>
+  <div class="bookmark-title"><h1><%= @list.name %></h1></div>
     <div class="cards">
 
       <% @list.bookmarks.each do |bookmark| %>
@@ -34,6 +31,8 @@
       </div>
 
     </div>
-
+  <%= link_to "Modify this list", edit_list_path(@list), class:"btn btn-secondary" %>
   <%= link_to "Delete this list", list_path(@list), data: {turbo_method: :delete, turbo_confirm: "Are you sure?"}, class:"btn btn-warning" %>
+  <%= link_to "Back to home", lists_path, class:"btn btn-secondary" %>
+
 </div>
