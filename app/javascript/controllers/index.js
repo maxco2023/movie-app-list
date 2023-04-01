@@ -7,11 +7,11 @@ import { application } from "./application"
 import DigitalsController from "./digitals_controller"
 application.register("digitals", DigitalsController)
 
-import DraggableController from "./draggable_controller"
-application.register("draggable", DraggableController)
-
 import HelloController from "./hello_controller"
 application.register("hello", HelloController)
+
+import NetflixController from "./netflix_controller"
+application.register("netflix", NetflixController)
 
 import YearsController from "./years_controller"
 application.register("years", YearsController)
