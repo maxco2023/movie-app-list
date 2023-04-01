@@ -2,19 +2,6 @@
   min-height: calc(100vh - 166px);
 }
 
-svg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  min-height: calc(100vh - 166px);
-  box-sizing: border-box;
-  display: block;
-  z-index: -10;
-  background-color: #0e4166;
-  background-image: linear-gradient(to bottom, rgba(185, 213, 234, 0.86), #0e4166);
-}
-
 .cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;

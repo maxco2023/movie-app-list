@@ -4,17 +4,14 @@
 
 import { application } from "./application"
 
-import BackgroundController from "./background_controller"
-application.register("background", BackgroundController)
-
 import DigitalsController from "./digitals_controller"
 application.register("digitals", DigitalsController)
 
 import HelloController from "./hello_controller"
 application.register("hello", HelloController)
 
-import TypedJsController from "./typed_js_controller"
-application.register("typed-js", TypedJsController)
+import NetflixController from "./netflix_controller"
+application.register("netflix", NetflixController)
 
 import YearsController from "./years_controller"
 application.register("years", YearsController)
