@@ -10,8 +10,8 @@ application.register("digitals", DigitalsController)
 import HelloController from "./hello_controller"
 application.register("hello", HelloController)
 
-import NetflixController from "./netflix_controller"
-application.register("netflix", NetflixController)
+import NeonController from "./neon_controller"
+application.register("neon", NeonController)
 
 import YearsController from "./years_controller"
 application.register("years", YearsController)
