@@ -10,8 +10,5 @@ application.register("digitals", DigitalsController)
 import HelloController from "./hello_controller"
 application.register("hello", HelloController)
 
-import NeonController from "./neon_controller"
-application.register("neon", NeonController)
-
 import YearsController from "./years_controller"
 application.register("years", YearsController)
