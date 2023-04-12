@@ -4,10 +4,10 @@ body, html {
   background-size: 400% 400%;
   animation: anim 5s infinite ease-in-out;
 }
-.wrapper {
-  width: 60%;
-  min-height: calc(100vh - 366px);
-  margin: 100px auto;
+
+h1{
+  padding:30px;
+  text-align: center;
 }
 
 @keyframes anim {

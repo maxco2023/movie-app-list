@@ -2,11 +2,17 @@
   min-height: calc(100vh - 100px);
 }
 
+.container-list{
+  min-height: calc(100vh - 130px);
+  max-width: 1300px;
+  margin:0 auto;
+}
+
 .cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 16px;
-
+  grid-gap: 25px;
+  margin-bottom: 25px;
 }
 
 .card-category {
