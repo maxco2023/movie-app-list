@@ -1,7 +1,11 @@
 .banner {
-  background-size: cover;
-  background-position: center;
   padding: 150px 0;
+  z-index: 1000;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0)
+  ) url("https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/background.png");
 }
 
 .banner h1 {
