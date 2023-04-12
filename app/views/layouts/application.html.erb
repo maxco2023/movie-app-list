@@ -11,7 +11,20 @@
   </head>
 
   <body>
-    <%= render "shared/navbar" %>
+
+    <%#= render "shared/navbar" %>
+
+    <button class="burger" onclick="toggleMenu()"></button>
+      <div class="menu">
+        <nav>
+          <%= link_to "Home", root_path, style:"animation-delay: 0.2s" %>
+          <%= link_to "Lists", lists_path, style:"animation-delay: 0.3s" %>
+          <%= link_to "Create a list", new_list_path, style:"animation-delay: 0.4s" %>
+        </nav>
+      </div>
+    <script type="text/javascript">
+      const toggleMenu = () => document.body.classList.toggle("open");
+    </script>
 
     <%= yield %>
 
