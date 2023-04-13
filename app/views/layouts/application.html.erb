@@ -10,18 +10,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js"></script>
-    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
   </head>
 
   <body>
 
-    <%#= render "shared/navbar" %>
-
     <button class="burger" onclick="toggleMenu()"></button>
       <div class="menu">
         <nav>
+          <div class="digit-nav" data-controller="digitals"></div>
           <%= link_to "Home", root_path, style:"animation-delay: 0.2s" %>
           <%= link_to "Lists", lists_path, style:"animation-delay: 0.3s" %>
           <%= link_to "Dev", test_path, style:"animation-delay: 0.4s" %>
