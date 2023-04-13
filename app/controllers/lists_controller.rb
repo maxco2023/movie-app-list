@@ -2,6 +2,9 @@ class ListsController < ApplicationController
   def home
   end
 
+  def test
+  end
+
   def index
     @lists = List.all
   end
