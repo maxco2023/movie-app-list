@@ -4,9 +4,6 @@
 
 import { application } from "./application"
 
-import CarouselController from "./carousel_controller"
-application.register("carousel", CarouselController)
-
 import DigitalsController from "./digitals_controller"
 application.register("digitals", DigitalsController)
 
