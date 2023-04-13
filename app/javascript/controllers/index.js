@@ -10,5 +10,8 @@ application.register("digitals", DigitalsController)
 import HelloController from "./hello_controller"
 application.register("hello", HelloController)
 
+import ModalController from "./modal_controller"
+application.register("modal", ModalController)
+
 import YearsController from "./years_controller"
 application.register("years", YearsController)
