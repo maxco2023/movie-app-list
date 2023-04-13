@@ -1,0 +1,19 @@
+.modals{
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  height: 100%; /* Full height */
+  width:100%;
+  top:0;
+  overflow: auto; /* Enable scroll if needed */
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+
+.modals-content {
+  position:relative;
+  text-align: center;
+  margin: 15% auto;
+  width: 400px !important; /* 15% from the top and centered */
+  height: 300px;
+}

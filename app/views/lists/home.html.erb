@@ -1,7 +1,39 @@
-<div class="container-home">
+<div class="container-home" data-controller="modals">
+
   <div class="banner">
     <div class="container">
       <h1>Le Wagon brings <strong>tech skills</strong> to <strong>creative people</strong>!</h1>
     </div>
   </div>
+
+  <div class="container-index">
+    <div class="card-trip">
+      <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/greece.jpg" />
+      <div class="card-trip-infos">
+        <div>
+          <h2>Découvrez un voyage en Grèce !</h2>
+          <p>6 jours / 7 nuits</p>
+        </div>
+        <h2 class="card-trip-pricing">990€</h2>
+        <img src="https://kitt.lewagon.com/placeholder/users/maxco2023" class="card-trip-user avatar-bordered" data-action="click->modals#open"/>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="modals d-none" data-modals-target="moda">
+    <div class="modals-content">
+      <div class="card-trip" data-action="click->modals#close">
+      <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/greece.jpg" />
+      <div class="card-trip-infos">
+        <div>
+          <h2>Découvrez un voyage en Grèce !</h2>
+          <p>6 jours / 7 nuits</p>
+        </div>
+        <h2 class="card-trip-pricing">990€</h2>
+        <img src="https://kitt.lewagon.com/placeholder/users/maxco2023" class="card-trip-user avatar-bordered" />
+      </div>
+    </div>
+  </div>
+
 </div>

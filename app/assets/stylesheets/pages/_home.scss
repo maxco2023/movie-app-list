@@ -1,1 +1,29 @@
 // Specific CSS for your home-page
+body, html {
+  background: linear-gradient(90deg, #264653, #c98e8e );
+  background-size: 400% 400%;
+  animation: anim 5s infinite ease-in-out;
+}
+
+h1{
+  padding:30px;
+  text-align: center;
+}
+
+.container-index{
+  max-width: 500px;
+  min-height: calc(100vh - 520px);
+  margin:0 auto;
+}
+
+@keyframes anim {
+  0%{
+    background-position: 0 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0 50%;
+  }
+}
