@@ -16,5 +16,8 @@ application.register("modal", ModalController)
 import ModalsController from "./modals_controller"
 application.register("modals", ModalsController)
 
+import ScrollController from "./scroll_controller"
+application.register("scroll", ScrollController)
+
 import YearsController from "./years_controller"
 application.register("years", YearsController)
